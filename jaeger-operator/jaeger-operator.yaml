@@ -13368,7 +13368,7 @@ spec:
               fieldPath: metadata.namespace
         - name: OPERATOR_NAME
           value: jaeger-operator
-        image: quay.mirrors.ustc.edu.cn/jaegertracing/jaeger-operator:1.33.0:1.33.0
+        image: quay.mirrors.ustc.edu.cn/jaegertracing/jaeger-operator:1.33.0
         livenessProbe:
           httpGet:
             path: /healthz

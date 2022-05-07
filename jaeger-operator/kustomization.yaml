@@ -2,5 +2,5 @@ resources:
   - https://github.com/jaegertracing/jaeger-operator/releases/download/v1.33.0/jaeger-operator.yaml
 
 images:
-  - name: quay.io/jaegertracing/jaeger-operator:1.33.0
-    newName: quay.mirrors.ustc.edu.cn/jaegertracing/jaeger-operator:1.33.0
+  - name: quay.io/jaegertracing/jaeger-operator
+    newName: quay.mirrors.ustc.edu.cn/jaegertracing/jaeger-operator
