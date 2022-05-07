@@ -7,7 +7,7 @@ Extra arguments for kubectl:
 `.args` file:
 
 ```sh
---insecure-skip-tls-verify=true --server=<YOUR_TOKEN> --token=<YOUR_TOKEN>
+--insecure-skip-tls-verify=true --server=<YOUR_SERVER_URL> --token=<YOUR_TOKEN>
 ```
 
 ### Installation
