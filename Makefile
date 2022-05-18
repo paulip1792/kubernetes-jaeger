@@ -5,7 +5,7 @@ ARGS:=$(shell cat .args)
 # Install cert-manager
 cert-manager:
 	$(CMD) -f ./cert-manager/cert-manager.yaml $(ARGS)
-	kubectl wait deployment -n cert-manager $(ARGS) cert-manager --for condition=Available=True --timeout=90s
+	kubectl wait deployment -n cert-manager $(ARGS) -l app.kubernetes.io/instance=cert-manager --for condition=Available=True --timeout=90s
 
 
 .PHONY: jaeger-operator
